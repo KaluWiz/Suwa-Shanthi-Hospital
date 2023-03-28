@@ -1,0 +1,10 @@
+create TABLE rental(id int Not NULL PRIMARY KEY AUTO_INCREMENT,
+                  name VARCHAR(100) NOT NULL,
+                  email VARCHAR(200) NOT NULL UNIQUE,
+                  phone VARCHAR(10) NOT NULL UNIQUE,
+                  join_date DATE NOT NULL DEFAULT CURRENT_DATE);
+
+
+INSERT INTO rental(name,email,phone) VALUES("Lewils Hamilton" , "lewishamilton@gmail.com" , "1234567890" );
+INSERT INTO rental(name,email,phone) VALUES("Mark Russel" , "markrussel@gmail.com" , "4224557590" );
+INSERT INTO rental(name,email,phone) VALUES("black mamba" , "Blackmamba@gmail.com" , "5236557860" );
