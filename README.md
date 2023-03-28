@@ -7,7 +7,7 @@
  -Install WAMP Server and run the local host
  -Do not use a password to the local host ( username - "root" )
  -Then create 3 Databases ( inventory, project, suwashanthi)
- -Then import the 3 SQL Source files to the relevant database one by one
+ -Then import the 3 SQL Source files to the relevant database one by one from the folder named "Databases"
  
  Website Run
  -Open and run the WAMP Server
